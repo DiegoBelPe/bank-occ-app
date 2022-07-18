@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import Alert from './components/Alert'
-import Clients from './components/Clients'
+import ClientsList from './components/ClientsList'
 import CreditLines from './components/CreditLines'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="vh-100">
       <Navbar />
-      <Clients />
+      <ClientsList />
       <CreditLines />
       <Alert />
       <Footer />
