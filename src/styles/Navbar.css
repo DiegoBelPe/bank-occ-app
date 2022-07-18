@@ -10,10 +10,20 @@
   text-align: center;
 }
 
+.text-avatar{
+  font-size: 10px;
+  color: darkgrey;
+}
+
+.title_avatar{
+  font-weight: bold;
+  font-size: 12px;
+}
+
 @media (min-width: 768px) {
   .mt-nav{
     
-     margin-left: 12rem; 
+     margin-left: 16rem; 
   }
   .h-logo{
     height: 4rem;

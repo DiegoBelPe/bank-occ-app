@@ -16,8 +16,8 @@ const Navbar = () => {
     <div className="collapse navbar-collapse mt-nav" id="navbarNavDropdown">
       <div className="navbar-nav">
           <div className='d-flex flex-column justify-content-center'>
-            <h6 className='m-0 text-center'>Carlos Gómez</h6>
-            <p className='m-0 text-center'>Gerente de Relacion</p>
+            <h6 className='m-0 text-center title_avatar'>Carlos Gómez</h6>
+            <p className='m-0 text-center text-avatar'>Gerente de Relacion</p>
           </div>
         <li className="nav-item dropdown">
           

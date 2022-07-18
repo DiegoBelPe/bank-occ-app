@@ -7,3 +7,16 @@
 .continue_btn{
   background-color: rgba(74, 148, 204, 0.3);;
 }
+
+.title_credit{
+  color: #4A94CC;
+  font-size: 1rem;
+  font-weight: bold;
+
+}
+
+.card_hover:hover{
+  background-color: rgba(74, 148, 204, 0.3);
+  color: #4A94CC;
+  cursor: pointer;
+}
