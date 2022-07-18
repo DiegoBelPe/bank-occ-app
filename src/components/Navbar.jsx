@@ -14,27 +14,24 @@ const Navbar = () => {
       <span className="navbar-toggler-icon btn-occ"></span>
     </button>
     <div className="collapse navbar-collapse mt-nav" id="navbarNavDropdown">
-      <ul className="navbar-nav">
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Features</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Pricing</a>
-        </li>
+      <div className="navbar-nav">
+          <div className='d-flex flex-column justify-content-center'>
+            <h6 className='m-0 text-center'>Carlos Gómez</h6>
+            <p className='m-0 text-center'>Gerente de Relacion</p>
+          </div>
         <li className="nav-item dropdown">
+          
           <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown link
+          <img className='border border-secondary border-3 rounded-circle'src={image.avatar} alt="" />
           </a>
-          <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <ul className="dropdown-menu m-0" aria-labelledby="navbarDropdownMenuLink">
+            
             <li><a className="dropdown-item" href="#">Action</a></li>
             <li><a className="dropdown-item" href="#">Another action</a></li>
             <li><a className="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
-      </ul>
+      </div>
     </div>
   </div>
 </nav>

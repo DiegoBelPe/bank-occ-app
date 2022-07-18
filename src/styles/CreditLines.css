@@ -1,5 +1,9 @@
 .img_Credit{
-  width: 15rem;
-  height: 15rem;
+  width: 2rem;
+  height: 10rem;
  
+}
+
+.continue_btn{
+  background-color: rgba(74, 148, 204, 0.3);;
 }
