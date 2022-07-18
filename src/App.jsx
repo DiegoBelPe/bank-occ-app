@@ -8,7 +8,7 @@ import Navbar from './components/Navbar'
 function App() {
 
   return (
-    <div className="bg-primary">
+    <div className="vh-100">
       <Navbar />
       <Clients />
       <CreditLines />

@@ -69,3 +69,7 @@ button:focus-visible {
   }
 }
  */
+
+ body{
+  font-family:'Poppins', sans-serif;
+}

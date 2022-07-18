@@ -1,15 +1,19 @@
 import React from 'react'
+import image from '../assets/image'
+import '../styles/Navbar.css'
+import Arrow from './Arrow'
 
 const Navbar = () => {
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg bg-light">
-  <div className="container-fluid">
-    <a className="navbar-brand" href="#">Navbar</a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
+    <div className='col-12 '>
+      <nav className="navbar navbar-expand-lg bg-light ">
+  <div className="container-fluid ">
+    <Arrow />
+    <img className='h-logo' src={image.img} alt="banco occidente" />
+    <button className=" navbar-toggler btn-occ" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon btn-occ"></span>
     </button>
-    <div className="collapse navbar-collapse" id="navbarNavDropdown">
+    <div className="collapse navbar-collapse mt-nav" id="navbarNavDropdown">
       <ul className="navbar-nav">
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="#">Home</a>
