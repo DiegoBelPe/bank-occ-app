@@ -1,11 +1,19 @@
 .img_Credit{
   width: 2rem;
-  height: 10rem;
+  height: 6rem;
  
 }
 
 .continue_btn{
-  background-color: rgba(74, 148, 204, 0.3);;
+  background-color: rgba(74, 148, 204, 0.3);
+}
+
+.card_title{
+  font-size: 12px;
+}
+
+.text_continue{
+  font-size: 17px;
 }
 
 .title_credit{
@@ -19,4 +27,27 @@
   background-color: rgba(74, 148, 204, 0.3);
   color: #4A94CC;
   cursor: pointer;
+}
+
+
+@media (min-width: 768px) {
+  .img_Credit{
+    width: 2rem;
+    height: 10rem;
+   
+  }
+
+  .title_credit{
+    color: #4A94CC;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .card_title{
+    font-size: 1rem;
+  }
+  
+  .text_continue{
+    font-size: 1.5rem;
+  }
 }
